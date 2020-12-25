@@ -1,0 +1,229 @@
+/* the css header */
+.header {
+  height: 600px;
+  background-image: url(header.jpg);
+}
+
+/* the css navbar */
+#nav {
+  border-radius: 25px;
+  display: inline-flex;
+  transform: translateX(180%);
+}
+
+/* the css li */
+#nav li {
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 12px 16px;
+  margin: 0 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* the css a  */
+a{
+    color: #042349;
+}
+
+a:hover {
+    color:rgb(212, 0, 255);
+    text-decoration:none;
+}
+/* the css title */
+#title{
+    position: absolute;
+    bottom:50%;
+    left: 32%;
+}
+
+/* the css h1 et h2 */
+#title h1,h2 {
+    text-align: center;
+  color: darkblue;
+}
+
+#title h1{
+    font-size: 50px;
+    font-family: 'Ultra', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+
+/* the css main  */
+/* the css about */
+#about{
+    height: 500px;
+    width: auto;
+    
+    
+}
+
+#about h2{
+    color: rgb(176, 63, 241);
+    font-size: 44px;
+    padding: 25px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font: outline;
+}
+
+#about img{
+    width: 600px;
+    position: absolute;
+    left: 8%;
+}
+
+#about p{
+    position: absolute;
+    left: 50%;
+    padding: 25px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-indent: 50px;
+}
+
+/* the css work */
+#work{
+    height: 500px;
+    width: auto;  
+}
+
+#work h2{
+    color: rgb(176, 63, 241);
+    font-size: 44px;
+    padding: 25px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font: outline;
+}
+#med{
+    padding: 25px;
+    position: absolute;
+}
+#med img{
+    padding: 25px;
+    height: 70px;
+}
+#med p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: mediumblue;
+}
+
+#lrn{
+    padding: 25px;
+    position: absolute;
+    left: 35%;
+}
+#lrn img{
+    padding: 25px;
+    height: 200px;
+}
+#lrn p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: mediumblue;
+}
+
+#inf{
+    padding: 25px;
+    position: absolute;
+    left: 70%;
+}
+#inf img{
+    padding: 25px;
+    height: 200px;
+}
+#inf p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: mediumblue;
+}
+
+/* the css resume */
+#resume{
+    height: 500px;
+    width: auto;  
+}
+
+#resume h2{
+    color: rgb(176, 63, 241);
+    font-size: 44px;
+    padding: 25px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font: outline;
+}
+#web {
+    position: absolute;
+    padding: 25px;
+}
+#web p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: mediumblue;
+}
+#html {
+    position: absolute;
+    padding: 25px;
+    left: 35%;
+}
+#html p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: mediumblue;
+}
+
+#css {
+    position: absolute;
+    padding: 25px;
+    left: 70%;
+}
+#css p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: mediumblue;
+}
+/* the footer  */
+#footer  {
+  position: absolute;
+  padding: 0px;
+    left: 40%;
+}
+#footer span{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(86, 68, 167);
+    margin: 15px;
+}
+form {
+    padding: 25px;
+}
+#name{
+    height: 20px;
+    width: 300px;
+    border-radius: 5px; 
+}
+#email{
+    height: 20px;
+    width: 300px;
+    border-radius: 5px; 
+}
+
+#message{
+    height:70px;
+    width: 550px;
+}
